@@ -20,7 +20,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Project Preview
 
-<img width="1617" alt="Palindrome Checker Screenshot" src="https://github.com/user-attachments/assets/dd4918d5-41ba-4110-9a4b-60ea41befc95" />
+<img width="1617" height="366" alt="Screenshot 2025-10-17 125753" src="https://github.com/user-attachments/assets/f4eb75dd-7b7c-42dc-8b1a-5f80722316a0" />
 
 Live Demo: [Add your live demo link here]
 
