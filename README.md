@@ -20,7 +20,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Project Preview
 
-<img width="1617" height="366" alt="Screenshot 2025-10-17 125753" src="https://github.com/user-attachments/assets/f4eb75dd-7b7c-42dc-8b1a-5f80722316a0" />
+<img width="719" height="754" alt="Screenshot 2025-10-17 133950" src="https://github.com/user-attachments/assets/49198b80-1c41-435d-bb4f-8d799af300a6" />
 
 Live Demo: [Add your live demo link here]
 
