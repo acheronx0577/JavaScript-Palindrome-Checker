@@ -9,7 +9,7 @@ Welcome to **Palindrome Checker** — a simple browser-based tool that determine
 **Course:** [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8)
 
 **Complete Your Certificate:**
-- ✅ This project (Palindrome Checker) fulfills one requirement
+- ✅ This project (Palindrome Checker) Part 1 Certification project!
 
 **Full Project Suite:** [25+ hands-on projects from Pyramid Generator to Final Certification Projects](https://github.com/acheronx0577/JavaScript-Algorithms-and-data-structures/tree/main)
 - 🎓 Complete all projects to earn your certification
