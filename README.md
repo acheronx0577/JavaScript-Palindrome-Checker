@@ -22,7 +22,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 <img width="719" height="754" alt="Screenshot 2025-10-17 133950" src="https://github.com/user-attachments/assets/49198b80-1c41-435d-bb4f-8d799af300a6" />
 
-Live Demo: [Add your live demo link here]
+Live Demo: https://acheronx0577.github.io/JavaScript-Palindrome-Checker
 
 ---
 
