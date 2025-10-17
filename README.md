@@ -61,12 +61,12 @@ Live Demo: [Add your live demo link here]
 
 ### 1️⃣ Clone this repo
 ```
-git clone git@github.com:acheronx0577/JavaScript-Building-a-Rock-Paper-Scissors-Game.git
+git clone git@github.com:acheronx0577/JavaScript-Palindrome-Checker.git
 ```
 
 ### 2️⃣ Open the project folder
 ```
-cd JavaScript-Building-a-Rock-Paper-Scissors-Game
+cd JavaScript-Palindrome-Checker
 ```
 
 ### 3️⃣ Run the game
