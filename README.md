@@ -64,25 +64,8 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Palindrome-Checker
 git clone git@github.com:acheronx0577/JavaScript-Palindrome-Checker.git
 ```
 
-### 2️⃣ Open the project folder
-```
-cd JavaScript-Palindrome-Checker
-```
-
-### 3️⃣ Run the game
+### 2️⃣ Run the game
 Just open `index.html` in your favorite browser 🌐 and start playing!
-
----
-
-## 🛠️ Features
-
-- **Real-time palindrome detection**
-- **Clean input processing** (removes non-alphanumeric characters)
-- **Color-coded results** (green for palindrome, red for non-palindrome)
-- **Responsive design** for all devices
-- **Keyboard support** (Enter key functionality)
-- **Accessible UI** with clear feedback
-- Built with **vanilla JavaScript**, **HTML5**, and **CSS3**
 
 ---
 
@@ -93,18 +76,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 - **DOM manipulation** for dynamic result display
 - **Event listeners** for click and keyboard interactions
 - **Conditional styling** based on validation results
-
----
-
-## 🎯 Learning Objectives
-
-This project demonstrates:
-- JavaScript string manipulation and regex
-- Array methods (reverse, join)
-- DOM manipulation and event handling
-- Algorithm implementation (palindrome logic)
-- CSS styling and responsive design
-- User input validation and error handling
 
 ---
 
