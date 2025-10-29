@@ -47,16 +47,6 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Palindrome-Checker
 
 ---
 
-## 🧩 Project Files
-
-| File | Description |
-|------|-------------|
-| `index.html` | Main application layout and structure |
-| `script.js` | Palindrome detection logic and DOM manipulation ⚙️ |
-| `styles.css` | Visual design and responsive styling 🎨 |
-
----
-
 ## 🧰 Installation & Usage
 
 ### 1️⃣ Clone this repo
