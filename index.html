@@ -3,41 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" />
-    <title>Palindrome Checker</title>
+    <title>PALINDROME_TERMINAL</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Palindrome Checker</h1>
-            <p class="description">A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).</p>
+    <div class="terminal">
+        <header class="terminal-header">
+            <div class="window-controls">
+                <span class="control close"></span>
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+            </div>
+            <div class="title-bar">
+                <span class="prompt">$</span>
+                <span class="title">PALINDROME_TERMINAL</span>
+                <span class="cursor">_</span>
+            </div>
         </header>
-        
-        <main>
-            <div class="input-group">
-                <input type="text" id="text-input" placeholder="Enter text to check...">
-                <button id="check-btn">Check</button>
+
+        <main class="terminal-body">
+            <div class="app-header">
+                <h1 class="app-title">~/text_analysis/palindrome_checker</h1>
+                <div class="status-bar">
+                    <span class="status-item">ONLINE</span>
+                    <span class="status-item">v2.1.3</span>
+                    <span class="status-item">UTF-8</span>
+                </div>
             </div>
-            
-            <div id="result" class="result-default">
-                <p>Enter a word or phrase above to check if it's a palindrome</p>
+
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="text-input" class="input-label">
+                        <span class="label-text">INPUT_TEXT</span>
+                        <span class="label-desc">[string_analysis]</span>
+                    </label>
+                    <input
+                        type="text"
+                        id="text-input"
+                        class="terminal-input"
+                        placeholder="Enter text to analyze..."
+                        autocomplete="off"
+                    />
+                </div>
+
+                <button id="check-btn" class="terminal-btn primary">
+                    <span class="btn-text">[ANALYZE_PALINDROME]</span>
+                </button>
             </div>
-            
-            <div class="examples">
-                <h3>Examples of Palindromes:</h3>
-                <ul>
-                    <li>A man, a plan, a canal: Panama</li>
-                    <li>race car</li>
-                    <li>Never odd or even</li>
-                    <li>My age is 0, 0 si ega ym.</li>
-                    <li>0_0 (: /-\ :) 0-0</li>
-                </ul>
+
+            <div id="output" class="output-panel hide">
+                <div class="output-header">
+                    <span class="output-title">ANALYSIS_REPORT</span>
+                    <span class="output-status">PROCESSING</span>
+                </div>
+                <div class="output-content">
+                    <div id="result" class="result-content"></div>
+                </div>
+            </div>
+
+            <div class="info-panel">
+                <div class="info-header">
+                    <span class="info-title">PALINDROME_EXAMPLES</span>
+                </div>
+                <div class="info-content">
+                    <div class="examples-grid">
+                        <div class="example-item">
+                            <span class="example-text">"racecar"</span>
+                            <span class="example-status valid">VALID</span>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-text">"A man, a plan, a canal: Panama"</span>
+                            <span class="example-status valid">VALID</span>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-text">"Never odd or even"</span>
+                            <span class="example-status valid">VALID</span>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-text">"0_0 (: /-\ :) 0-0"</span>
+                            <span class="example-status valid">VALID</span>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-text">"hello world"</span>
+                            <span class="example-status invalid">INVALID</span>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-text">"python"</span>
+                            <span class="example-status invalid">INVALID</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
+
+        <footer class="terminal-footer">
+            <div class="footer-stats">
+                <span class="stat">STATUS: READY</span>
+                <span class="stat">CHARS: <span id="char-count">0</span></span>
+                <span class="stat">MODE: CASE_INSENSITIVE</span>
+            </div>
+        </footer>
     </div>
-    
     <script src="script.js"></script>
 </body>
-
 </html>
